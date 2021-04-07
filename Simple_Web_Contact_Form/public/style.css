@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 100px;
+  background: #f1f1f1;
+  color: #4d4d4d;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.padding {
+  padding: 10px 0;
+}
+
+.form-container {
+  background: #ffffff;
+  box-shadow: 0 0 30px 2px rgb(146, 146, 146);
+  width: 30vw;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.form-container input {
+  height: 30px;
+}
+
+.form-container input,
+textarea,
+select {
+  margin: 5px 0;
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-container select {
+  height: 40px;
+  padding: 0 1rem;
+}
+
+.form-container textarea {
+  resize: none;
+  width: 100%;
+  font-family: inherit;
+}
